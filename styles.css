@@ -1,157 +1,141 @@
+body {
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .navbar {
     background-color: rgb(118, 9, 9);
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    padding: 0%;
-}
-
-.container {
     display: flex;
     flex-direction: row;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: row;   
-    list-style-type: none;
-    margin-left: 50%;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
     
 }
 
-.navbar-brand {
-    margin-left: 30px;
-    padding: 10px;
-    margin-top: 0px;
-    text-decoration: none;
+
+.titolo {
     color: aliceblue;
+    font-size: 20px;
+    padding: 0%;    
+    text-align: center;
 }
+
+.docenti {
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container2 {
+    display: block;
+    margin: auto;
+}
+
 
 .logopoli {
-    width: 200px;
+    width: 150px;
 }
 
-.nav-item1 {
-    margin: 15px;
+#Indice h2 {
+    color: rgb(118, 9, 9);
 }
 
-.nav-item2 {
-    margin: 15px;  
+.container3 {
+    background-color: rgb(118, 9, 9) ;
+    padding: 5px;
+    border-radius: 30px;
+    padding: 2%;
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
-.nav-item3 {
-    margin: 15px;   
-}
-
-#navbarResponsive {
-    margin-left: 150px;
-}
-
-.nav-item1 a {
-    text-decoration: none;
-    color: aliceblue;
-    
-}
-
-.nav-item2 a {
-    text-decoration: none;
-    color: aliceblue; 
-}
-
-.nav-item3 a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.masthead {
-    background-color: rgb(255, 255, 255);
-    color:rgb(118, 9, 9);
-    text-align: center;
-}
-
-.masthead-avatar {
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
-}
-
-.first {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20%;
-}
-
-.Pfcontainer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(118, 9, 9);
-    padding: 40px;
-}
-
-.page-section-heading {
-    text-align: center;
-    color: aliceblue;
-    padding: 20px;
-}
 
 .grigliabox {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 40px;
+    width: fit-content;
     margin: auto;
     
 }
 
-.img1 {
-    width: 200px;
+.minititolo {
+    color: aliceblue;
+    text-align: center;
+    margin: 50px;
 }
 
-.img2 {
-    width: 200px;
-}
-
-.img3 {
-    width: 200px;
-}
-
-.img4 {
-    width: 200px;
-}
-
-.img5 {
-    width: 200px;
-}
-
-.img6 {
-    width: 200px;
-}
-
-.textabout {
+.lezione1 {
     color: rgb(118, 9, 9);
-    text-align: center;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
 }
 
-.Aboutcont {
-    padding: 50px;
-}
-
-.contactmecontenitor {
-    background-color: rgb(118, 9, 9);
-    padding: 30px;
-
-}
-
-.textcontactme {
+.lezione1:hover {
     color: aliceblue;
-    text-align: center;
-    padding-bottom: 20px;
+    background-color: rgb(159, 57, 57) ;
 }
 
-.contatti {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: aliceblue;
-    padding: 20px;
+.lezione2 {
+    color: rgb(118, 9, 9);
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
 }
+
+.lezione2:hover {
+    color: aliceblue;
+    background-color: rgb(159, 57, 57) ;
+}
+
+.lezione3 {
+    color: rgb(118, 9, 9);
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.lezione3:hover {
+    color: aliceblue;
+    background-color: rgb(159, 57, 57) ;
+}
+
+.lezione4 {
+    color: rgb(118, 9, 9);
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.lezione4:hover {
+    color: aliceblue;
+    background-color: rgb(159, 57, 57) ;
+}
+
+.lezione5 {
+    color: rgb(118, 9, 9);
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.lezione5:hover {
+    color: aliceblue;
+    background-color: rgb(159, 57, 57) ;
+}
+
+.lezione6 {
+    color: rgb(118, 9, 9);
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.lezione6:hover {
+    color: aliceblue;
+    background-color: rgb(159, 57, 57) ;
+}
+
