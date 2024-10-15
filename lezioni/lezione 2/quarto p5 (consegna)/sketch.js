@@ -47,7 +47,7 @@ function draw() {
     boatX += boatSpeed; // Aumenta la posizione x della barchetta
     // Ripristina la posizione se esce dal canvas
     if (boatX > width + 50) { // Se la barchetta esce a destra
-    boatX = -50; // Riportala a sinistralet boatSpeed = 2; // Velocità di movimento della barchetta
+    boatX = -50; // Riportala a sinistra let boatSpeed = 0.5; // Velocità di movimento della barchetta
     }
 
 }
